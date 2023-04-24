@@ -1,0 +1,17 @@
+.search-container{
+    display: flex;
+    align-items: center;
+    background: var(--color-btn-variant);
+    border-radius: 2rem;
+    padding: 12px;
+    margin-bottom: 1.5em;
+}
+
+.search-container input{
+    background: var(--color-btn-variant);
+    margin-left: 20px;
+}
+
+.search-icon{
+    margin-left: 10px;
+}

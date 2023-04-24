@@ -1,0 +1,13 @@
+.note.new-note{
+    background: var(--color-add);
+
+}
+textarea{
+    border: none;
+    resize: none;
+    background: var(--color-add);
+}   
+
+textarea:focus{
+    outline: none;
+}

@@ -1,0 +1,31 @@
+.note{
+    background: var(--color-note);
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;  /* to add space when typing and save it*/
+    
+}
+
+.note-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-icon{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+   
+}
+.delete-icon:hover{
+    scale: 1.6;
+    transform: rotate(10deg);
+}
+
+.delete-icon::after{
+    transform: rotate(-20deg);
+}
