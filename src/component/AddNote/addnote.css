@@ -1,5 +1,6 @@
 .note.new-note{
     background: var(--color-add);
+    
 
 }
 textarea{
@@ -8,6 +9,3 @@ textarea{
     background: var(--color-add);
 }   
 
-textarea:focus{
-    outline: none;
-}

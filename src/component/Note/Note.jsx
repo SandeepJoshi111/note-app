@@ -4,6 +4,7 @@ import './note.css'
 
 const Note = ({id, text, date ,handleDeleteNote}) => {
   return (
+
     <div className='note'>
 
         <span>{text}</span>
@@ -16,6 +17,7 @@ const Note = ({id, text, date ,handleDeleteNote}) => {
         </div>
 
     </div>
+  
   )
 }
 

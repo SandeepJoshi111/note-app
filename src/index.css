@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 *{
         margin: 0;
@@ -15,30 +15,36 @@
 body{
     background: var(--color-bg);
     line-height: 1.7;
-
-
+    color: var(--color-text);
 }
+
+
+
 
 
 :root{
     --color-bg:#f7ecb4ee;
     --color-note:#f3e962;
     --color-add:#67d7cc;
-    --color-btn:#e1e1e1;
+    --color-btn:#000;
     --color-btn-variant:#ededed;
     --color-light:rgb(111, 109, 109);
+    --color-text:#000;
 
     --transition:all 400ms ease;
 
     --container-width-lg:85%;
     --container-width-md:90%;
-    --container-width-ms:95%;
+    --container-width-ms:80%;
 }
+
+
 
 .container{
     width: var(--container-width-lg);
     margin: 0 auto;
     padding:0 15px ;
+    min-height: 100vh;
 }
 
 .btn{
@@ -47,12 +53,14 @@ body{
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    color: var(--color-btn-variant);
     transition: var(--transition);
 }
 .btn:hover{
     transform: scale(1.2);
     background:var(--color-btn-variant) ;
     box-shadow: 2px 2px 10px  black;
+    color: var(--color-btn);
 }
 small{
     color: var(--color-light);
