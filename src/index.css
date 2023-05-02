@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Monoton&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 *{
         margin: 0;
@@ -16,6 +16,7 @@ body{
     background: var(--color-bg);
     line-height: 1.7;
     color: var(--color-text);
+    
 }
 
 
@@ -61,6 +62,7 @@ body{
     background:var(--color-btn-variant) ;
     box-shadow: 2px 2px 10px  black;
     color: var(--color-btn);
+
 }
 small{
     color: var(--color-light);

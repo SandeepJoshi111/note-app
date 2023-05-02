@@ -5,6 +5,8 @@
     border-radius: 2rem;
     padding: 12px;
     margin-bottom: 1.5em;
+    top:5rem;
+    position: relative;
 }
 
 .search-container input{
